@@ -1,0 +1,31 @@
+id,app_id,name,description,riskLevel
+2f0edd6b-4adb-4317-802d-10d85f1764a3,aebf6307-2a46-41f5-89fb-48a4045c8cd7,Team Calendar,Function to team calendar in Workday,Low
+a281f62d-3d54-4f3b-97a0-cb78d0d00101,aebf6307-2a46-41f5-89fb-48a4045c8cd7,Submit Leave Request,Function to submit leave request in Workday,Low
+2fdcc70a-8507-4ce3-9236-331335d6fc1c,aebf6307-2a46-41f5-89fb-48a4045c8cd7,View Payslip,Function to view payslip in Workday,High
+38f95d93-8ce5-4888-a127-8adb4c465dac,da0ad6e1-4488-4ce7-941a-eae6f959ff2e,View Payslip,Function to view payslip in SuccessFactors,High
+a88ae320-746b-4d01-9a50-fafe2ab82aef,da0ad6e1-4488-4ce7-941a-eae6f959ff2e,Team Calendar,Function to team calendar in SuccessFactors,Low
+b02e0416-e04d-43a0-b827-88d7c93b86ae,da0ad6e1-4488-4ce7-941a-eae6f959ff2e,Update Emergency Contact,Function to update emergency contact in SuccessFactors,Medium
+e25c8e49-1602-42b1-a2c8-04bfdda9703f,f2ea0ba9-a90c-4092-b9b4-5ee04bcf1a96,Report Issue,Function to report issue in ServiceNow,Low
+29c22296-b85d-4eec-b24a-f990402d3bdc,f2ea0ba9-a90c-4092-b9b4-5ee04bcf1a96,Check Ticket Status,Function to check ticket status in ServiceNow,Low
+a5b82fbf-4a7a-44c6-9767-5a69966c2246,f2ea0ba9-a90c-4092-b9b4-5ee04bcf1a96,Request Software,Function to request software in ServiceNow,Medium
+2e08ce5e-210c-44ba-929b-2f2558da5c06,0dbb6c45-f599-4950-918f-a42f0b829eb9,Report Issue,Function to report issue in Jira Service Desk,Low
+99a5e5a3-f83d-461e-a929-85a5e543f7d8,0dbb6c45-f599-4950-918f-a42f0b829eb9,Check Ticket Status,Function to check ticket status in Jira Service Desk,Low
+3dbb4b03-c58f-4ca9-84fd-c634001f4ea6,0dbb6c45-f599-4950-918f-a42f0b829eb9,Reset Password,Function to reset password in Jira Service Desk,High
+e734c2b0-dfda-4146-a379-628659c09a00,0aa24155-a44f-4374-bb0e-643c682d0074,Approve Invoice,Function to approve invoice in SAP Concur,High
+1f56e125-c63b-4565-8b8d-9ae456eff199,0aa24155-a44f-4374-bb0e-643c682d0074,Check Budget,Function to check budget in SAP Concur,High
+7a72d687-060c-4b4d-8148-4235148174f9,0aa24155-a44f-4374-bb0e-643c682d0074,Submit Expense,Function to submit expense in SAP Concur,Medium
+6fdc974e-6428-422b-b6d5-8cb036a9bd2e,558115d9-20de-44eb-ad13-70d69eac64d3,Approve Invoice,Function to approve invoice in Oracle NetSuite,High
+d9cf8e5f-48e3-456e-8300-cdcf7a2fb6db,558115d9-20de-44eb-ad13-70d69eac64d3,Check Budget,Function to check budget in Oracle NetSuite,High
+cc954048-2337-44e8-83e4-eedac1287923,558115d9-20de-44eb-ad13-70d69eac64d3,Submit Expense,Function to submit expense in Oracle NetSuite,Medium
+3c0f1092-066f-4af7-a22f-e0cff3f1e3f7,64926152-7c17-4718-a86e-301f42a19a3e,Create Lead,Function to create lead in Salesforce,Low
+ee54fa26-3dac-4443-8f7e-ab4928e09542,64926152-7c17-4718-a86e-301f42a19a3e,Pipeline Review,Function to pipeline review in Salesforce,Low
+bf507867-e59b-4c0b-9ef6-eceff0da9f41,64926152-7c17-4718-a86e-301f42a19a3e,Customer Lookup,Function to customer lookup in Salesforce,Low
+7c06e02c-8346-45c9-9efd-78d44d2fcd85,c2c1c4d3-0265-4f37-aa01-df6c45c93640,Create Lead,Function to create lead in HubSpot,Low
+8878914f-5a1a-4d81-9f09-05b5fa37c633,c2c1c4d3-0265-4f37-aa01-df6c45c93640,Pipeline Review,Function to pipeline review in HubSpot,Low
+76daadef-9ee7-4fed-8593-3106937a0fe6,c2c1c4d3-0265-4f37-aa01-df6c45c93640,Customer Lookup,Function to customer lookup in HubSpot,Low
+4f19cbca-d4e4-49d7-aacd-0743dd2baa61,d6422ec1-d3ff-45d9-bf45-c1cdc8c2a919,Check Lot Status,Function to check lot status in Siemens Opcenter,Low
+38cb7492-8730-453c-9001-89c34291d08b,d6422ec1-d3ff-45d9-bf45-c1cdc8c2a919,View Digital Twin,Function to view digital twin in Siemens Opcenter,Low
+a1a17b38-5eb4-4e8d-bbde-ac4da2fd17b1,d6422ec1-d3ff-45d9-bf45-c1cdc8c2a919,Check Tool Status,Function to check tool status in Siemens Opcenter,Medium
+c6743b95-abd8-44d8-a378-68604a5d2cdc,c5d58f12-3eea-4a36-968f-e8cbc539f8ec,Manufacturing Dashboard,Function to manufacturing dashboard in FabGuard,Low
+c9318ff6-4ff4-4b62-94e6-a1cc8c21a2ab,c5d58f12-3eea-4a36-968f-e8cbc539f8ec,Check Lot Status,Function to check lot status in FabGuard,Low
+155a3c20-5363-41f7-9681-dda416a8a5d3,c5d58f12-3eea-4a36-968f-e8cbc539f8ec,View Digital Twin,Function to view digital twin in FabGuard,Low

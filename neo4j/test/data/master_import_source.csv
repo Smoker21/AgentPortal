@@ -1,0 +1,31 @@
+Application,Category,Function,Description,SampleUtterance,API_Url
+Workday,HR,Team Calendar,Function to team calendar in Workday,Who is on leave today?,https://api.workday.com/api/calendar/team/view
+Workday,HR,Submit Leave Request,Function to submit leave request in Workday,I want to take time off,https://api.workday.com/api/v1/leaves/request
+Workday,HR,View Payslip,Function to view payslip in Workday,Show my latest salary slip,https://api.workday.com/api/payroll/payslip/latest
+SuccessFactors,HR,View Payslip,Function to view payslip in SuccessFactors,Show my latest salary slip,https://api.successfactors.com/api/payroll/payslip/latest
+SuccessFactors,HR,Team Calendar,Function to team calendar in SuccessFactors,Who is on leave today?,https://api.successfactors.com/api/calendar/team/view
+SuccessFactors,HR,Update Emergency Contact,Function to update emergency contact in SuccessFactors,Change my emergency contact number,https://api.successfactors.com/api/profile/contact/emergency
+ServiceNow,IT,Report Issue,Function to report issue in ServiceNow,My computer is not working,https://api.servicenow.com/api/ticket/create
+ServiceNow,IT,Check Ticket Status,Function to check ticket status in ServiceNow,What is the status of my ticket?,https://api.servicenow.com/api/ticket/status/{id}
+ServiceNow,IT,Request Software,Function to request software in ServiceNow,I need to install VS Code,https://api.servicenow.com/api/catalog/software/request
+Jira Service Desk,IT,Report Issue,Function to report issue in Jira Service Desk,My computer is not working,https://api.jiraservicedesk.com/api/ticket/create
+Jira Service Desk,IT,Check Ticket Status,Function to check ticket status in Jira Service Desk,What is the status of my ticket?,https://api.jiraservicedesk.com/api/ticket/status/{id}
+Jira Service Desk,IT,Reset Password,Function to reset password in Jira Service Desk,I forgot my password,https://api.jiraservicedesk.com/api/security/password/reset
+SAP Concur,Finance,Approve Invoice,Function to approve invoice in SAP Concur,Show invoices waiting for my approval,https://api.sapconcur.com/api/invoice/approval/list
+SAP Concur,Finance,Check Budget,Function to check budget in SAP Concur,How much budget is left for my department?,https://api.sapconcur.com/api/budget/dept/summary
+SAP Concur,Finance,Submit Expense,Function to submit expense in SAP Concur,I need to file an expense report,https://api.sapconcur.com/api/expense/submit
+Oracle NetSuite,Finance,Approve Invoice,Function to approve invoice in Oracle NetSuite,Show invoices waiting for my approval,https://api.oraclenetsuite.com/api/invoice/approval/list
+Oracle NetSuite,Finance,Check Budget,Function to check budget in Oracle NetSuite,How much budget is left for my department?,https://api.oraclenetsuite.com/api/budget/dept/summary
+Oracle NetSuite,Finance,Submit Expense,Function to submit expense in Oracle NetSuite,I need to file an expense report,https://api.oraclenetsuite.com/api/expense/submit
+Salesforce,Sales,Create Lead,Function to create lead in Salesforce,Add a new sales lead,https://api.salesforce.com/api/crm/lead/create
+Salesforce,Sales,Pipeline Review,Function to pipeline review in Salesforce,Show me the sales pipeline,https://api.salesforce.com/api/crm/pipeline/dashboard
+Salesforce,Sales,Customer Lookup,Function to customer lookup in Salesforce,Find details for client Acme Corp,https://api.salesforce.com/api/crm/customer/search
+HubSpot,Sales,Create Lead,Function to create lead in HubSpot,Add a new sales lead,https://api.hubspot.com/api/crm/lead/create
+HubSpot,Sales,Pipeline Review,Function to pipeline review in HubSpot,Show me the sales pipeline,https://api.hubspot.com/api/crm/pipeline/dashboard
+HubSpot,Sales,Customer Lookup,Function to customer lookup in HubSpot,Find details for client Acme Corp,https://api.hubspot.com/api/crm/customer/search
+Siemens Opcenter,Manufacturing,Check Lot Status,Function to check lot status in Siemens Opcenter,Check my lot status,https://api.siemensopcenter.com/api/mes/lot/status/{lot_id}
+Siemens Opcenter,Manufacturing,View Digital Twin,Function to view digital twin in Siemens Opcenter,Show me the equipment digital twin,https://api.siemensopcenter.com/api/iot/digitaltwin/view
+Siemens Opcenter,Manufacturing,Check Tool Status,Function to check tool status in Siemens Opcenter,What is current tool status,https://api.siemensopcenter.com/api/fms/tool/status/{tool_id}
+FabGuard,Manufacturing,Manufacturing Dashboard,Function to manufacturing dashboard in FabGuard,Check my current dashboards,https://api.fabguard.com/api/dashboard/plant/overview
+FabGuard,Manufacturing,Check Lot Status,Function to check lot status in FabGuard,Check my lot status,https://api.fabguard.com/api/mes/lot/status/{lot_id}
+FabGuard,Manufacturing,View Digital Twin,Function to view digital twin in FabGuard,Show me the equipment digital twin,https://api.fabguard.com/api/iot/digitaltwin/view

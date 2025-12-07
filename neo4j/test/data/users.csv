@@ -1,0 +1,21 @@
+id,accountId,name,email,role
+00090e2c-6f8e-403d-b81d-4a82dfc179f0,u1000,User_0,user0@example.com,Employee
+81cb4595-f06e-4ff8-acab-b3cb5c234886,u1001,User_1,user1@example.com,Knowledge Expert
+8925459e-be39-4f95-9663-6a6187fceceb,u1002,User_2,user2@example.com,Employee
+f1cf0463-e0e3-4bfa-b27d-8f46b3e61fa8,u1003,User_3,user3@example.com,Knowledge Expert
+73aeb299-7af3-4f0f-af6f-c2c7031d5941,u1004,User_4,user4@example.com,Employee
+c1ac29e4-5247-4e1b-9d22-5a3ccda0a07c,u1005,User_5,user5@example.com,Employee
+dbd6e278-5e09-4312-96fd-906ca7a16e5e,u1006,User_6,user6@example.com,Knowledge Expert
+a99713ca-8fae-4673-a23d-dab994492b22,u1007,User_7,user7@example.com,Admin
+bd69bc5c-e893-4d1d-bd9b-f74307395535,u1008,User_8,user8@example.com,Admin
+dde2c1b7-0161-4171-988a-9503ca946cea,u1009,User_9,user9@example.com,Admin
+0d5c8a75-5f1c-49b5-9b7c-d1c05f5d2269,u1010,User_10,user10@example.com,Admin
+6b75cd87-d61a-4256-8de1-0a7616e2956a,u1011,User_11,user11@example.com,Admin
+b80bfc23-d9f2-4752-89cc-ee055c5686a3,u1012,User_12,user12@example.com,Manager
+3e5a8ab1-5b24-4be0-86c1-e889c3ed26c8,u1013,User_13,user13@example.com,Employee
+ac80e329-624c-4022-839b-65ad35a61019,u1014,User_14,user14@example.com,Knowledge Expert
+cc605ded-31bb-4cf3-9fc7-a18b0acf5eb1,u1015,User_15,user15@example.com,Knowledge Expert
+9b0222e2-3176-415b-8ee9-93dcff651bcf,u1016,User_16,user16@example.com,Employee
+d70950f2-eb0f-46af-be86-661d3af40bbf,u1017,User_17,user17@example.com,Admin
+18f73119-0b90-498a-a526-a04dd3d0d8e8,u1018,User_18,user18@example.com,Admin
+5bfdf5ca-c96b-4a72-bc91-04f8b2943c23,u1019,User_19,user19@example.com,Employee

@@ -1,0 +1,31 @@
+id,func_id,name,sampleUtterance,domain
+60e21297-237c-4cfa-9b7f-4f803bad09f7,2f0edd6b-4adb-4317-802d-10d85f1764a3,Intent_TeamCalendar,Who is on leave today?,HR
+a8808b2c-04a7-4dab-b6fc-11ed3e998cda,a281f62d-3d54-4f3b-97a0-cb78d0d00101,Intent_SubmitLeaveRequest,I want to take time off,HR
+d58a5027-9ffa-4b66-8a87-c99bda7fed08,2fdcc70a-8507-4ce3-9236-331335d6fc1c,Intent_ViewPayslip,Show my latest salary slip,HR
+1afe428b-e29c-4905-b819-f94d172f0bd4,38f95d93-8ce5-4888-a127-8adb4c465dac,Intent_ViewPayslip,Show my latest salary slip,HR
+b1038afd-a5f3-4ef7-91d2-db90bcae98ac,a88ae320-746b-4d01-9a50-fafe2ab82aef,Intent_TeamCalendar,Who is on leave today?,HR
+24d0ad11-b461-4dcb-87d4-ffe9b08c738d,b02e0416-e04d-43a0-b827-88d7c93b86ae,Intent_UpdateEmergencyContact,Change my emergency contact number,HR
+c031ec4e-c3a1-4eac-b1fd-7a861d9926c6,e25c8e49-1602-42b1-a2c8-04bfdda9703f,Intent_ReportIssue,My computer is not working,IT
+6c9553e7-a2f6-4f1d-96c8-6825536ed36d,29c22296-b85d-4eec-b24a-f990402d3bdc,Intent_CheckTicketStatus,What is the status of my ticket?,IT
+c8cea25e-993d-4bd8-b668-5e2f0d94b823,a5b82fbf-4a7a-44c6-9767-5a69966c2246,Intent_RequestSoftware,I need to install VS Code,IT
+8a72fc8d-2602-485b-aaee-0f51b7f2c95a,2e08ce5e-210c-44ba-929b-2f2558da5c06,Intent_ReportIssue,My computer is not working,IT
+3a8e3514-4085-4a35-93b4-a2c7bb641bb0,99a5e5a3-f83d-461e-a929-85a5e543f7d8,Intent_CheckTicketStatus,What is the status of my ticket?,IT
+b51ea978-058f-47bd-9380-b2e0aec45618,3dbb4b03-c58f-4ca9-84fd-c634001f4ea6,Intent_ResetPassword,I forgot my password,IT
+64aade70-e387-4102-a0df-dcb5b59c3071,e734c2b0-dfda-4146-a379-628659c09a00,Intent_ApproveInvoice,Show invoices waiting for my approval,Finance
+874a0bd6-c349-4565-a841-d9fb0ad1cd2f,1f56e125-c63b-4565-8b8d-9ae456eff199,Intent_CheckBudget,How much budget is left for my department?,Finance
+c3067f66-5242-44df-81c9-be8343c5d6fe,7a72d687-060c-4b4d-8148-4235148174f9,Intent_SubmitExpense,I need to file an expense report,Finance
+fdab0b7f-b95f-438e-9f05-f8f6d3fce4d9,6fdc974e-6428-422b-b6d5-8cb036a9bd2e,Intent_ApproveInvoice,Show invoices waiting for my approval,Finance
+fefa1df6-7e9a-42bd-9abf-35b33a60d30b,d9cf8e5f-48e3-456e-8300-cdcf7a2fb6db,Intent_CheckBudget,How much budget is left for my department?,Finance
+15c74801-024a-4ace-b849-d3a9e7d24284,cc954048-2337-44e8-83e4-eedac1287923,Intent_SubmitExpense,I need to file an expense report,Finance
+bee263de-33d5-4eb0-af9d-b78ab3ad40cf,3c0f1092-066f-4af7-a22f-e0cff3f1e3f7,Intent_CreateLead,Add a new sales lead,Sales
+04fb2dfd-1dad-4254-9e9b-a210449f3bba,ee54fa26-3dac-4443-8f7e-ab4928e09542,Intent_PipelineReview,Show me the sales pipeline,Sales
+e7ae25af-7a03-4963-a5d8-60a97f08919e,bf507867-e59b-4c0b-9ef6-eceff0da9f41,Intent_CustomerLookup,Find details for client Acme Corp,Sales
+6f067f71-8608-49d2-98f3-742d0d508fc7,7c06e02c-8346-45c9-9efd-78d44d2fcd85,Intent_CreateLead,Add a new sales lead,Sales
+59a8eacd-d29d-41e4-b287-1b42160fc0ea,8878914f-5a1a-4d81-9f09-05b5fa37c633,Intent_PipelineReview,Show me the sales pipeline,Sales
+5a092040-c3e5-4856-9df1-d13a50fce9f9,76daadef-9ee7-4fed-8593-3106937a0fe6,Intent_CustomerLookup,Find details for client Acme Corp,Sales
+1aae499b-b6c4-495b-933e-cf85f21f7853,4f19cbca-d4e4-49d7-aacd-0743dd2baa61,Intent_CheckLotStatus,Check my lot status,Manufacturing
+46bf1fdc-9241-47d8-b58a-5a2bde7a0642,38cb7492-8730-453c-9001-89c34291d08b,Intent_ViewDigitalTwin,Show me the equipment digital twin,Manufacturing
+09f1a9d5-eca9-4e8f-961f-0a3913c17d3b,a1a17b38-5eb4-4e8d-bbde-ac4da2fd17b1,Intent_CheckToolStatus,What is current tool status,Manufacturing
+34831ae3-dfd3-4bbf-a7be-e14336af9c03,c6743b95-abd8-44d8-a378-68604a5d2cdc,Intent_ManufacturingDashboard,Check my current dashboards,Manufacturing
+54ed107c-7486-4096-b9b5-5104b4d43e2d,c9318ff6-4ff4-4b62-94e6-a1cc8c21a2ab,Intent_CheckLotStatus,Check my lot status,Manufacturing
+6f3d64d4-e042-42ba-9c92-6efa2c836817,155a3c20-5363-41f7-9681-dda416a8a5d3,Intent_ViewDigitalTwin,Show me the equipment digital twin,Manufacturing

@@ -1,0 +1,11 @@
+id,name,category,status
+aebf6307-2a46-41f5-89fb-48a4045c8cd7,Workday,HR,Production
+da0ad6e1-4488-4ce7-941a-eae6f959ff2e,SuccessFactors,HR,Production
+f2ea0ba9-a90c-4092-b9b4-5ee04bcf1a96,ServiceNow,IT,Production
+0dbb6c45-f599-4950-918f-a42f0b829eb9,Jira Service Desk,IT,Production
+0aa24155-a44f-4374-bb0e-643c682d0074,SAP Concur,Finance,Production
+558115d9-20de-44eb-ad13-70d69eac64d3,Oracle NetSuite,Finance,Production
+64926152-7c17-4718-a86e-301f42a19a3e,Salesforce,Sales,Production
+c2c1c4d3-0265-4f37-aa01-df6c45c93640,HubSpot,Sales,Production
+d6422ec1-d3ff-45d9-bf45-c1cdc8c2a919,Siemens Opcenter,Manufacturing,Production
+c5d58f12-3eea-4a36-968f-e8cbc539f8ec,FabGuard,Manufacturing,Production
