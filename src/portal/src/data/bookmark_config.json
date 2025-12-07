@@ -1,0 +1,37 @@
+[
+    {
+        "id": "lot-center",
+        "name": "Lot Center",
+        "icon": "/src/assets/icons/lot_center.png",
+        "description": "Manage and track wafer lots",
+        "url": "http://google.com"
+    },
+    {
+        "id": "tool-center",
+        "name": "Tool Center",
+        "icon": "/src/assets/icons/tool_center.png",
+        "description": "Semiconductor tool management",
+        "url": "http://google.com"
+    },
+    {
+        "id": "process-center",
+        "name": "Process Center",
+        "icon": "/src/assets/icons/process_center.png",
+        "description": "Process control and monitoring",
+        "url": "http://google.com"
+    },
+    {
+        "id": "manufacture-center",
+        "name": "Manufacture Center",
+        "icon": "/src/assets/icons/manufacture_center.png",
+        "description": "Manufacturing execution system",
+        "url": "http://google.com"
+    },
+    {
+        "id": "dashboard-center",
+        "name": "Dashboard Center",
+        "icon": "/src/assets/icons/dashboard_center.png",
+        "description": "System overview metrics",
+        "url": "http://google.com"
+    }
+]

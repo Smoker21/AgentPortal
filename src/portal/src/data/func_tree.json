@@ -1,0 +1,99 @@
+[
+    {
+        "title": "Yield Management System (YMS)",
+        "key": "yms",
+        "children": [
+            {
+                "title": "Yield Analysis",
+                "key": "yms-analysis",
+                "children": [
+                    {
+                        "title": "Wafer Map Viewer",
+                        "key": "app-wafer-map",
+                        "isLeaf": true
+                    },
+                    {
+                        "title": "Trend Chart",
+                        "key": "app-trend-chart",
+                        "isLeaf": true
+                    }
+                ]
+            },
+            {
+                "title": "Defect Tracking",
+                "key": "yms-defect",
+                "children": [
+                    {
+                        "title": "Defect Review",
+                        "key": "app-defect-review",
+                        "isLeaf": true
+                    },
+                    {
+                        "title": "Image Gallery",
+                        "key": "app-image-gallery",
+                        "isLeaf": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Manufacturing Execution System (MES)",
+        "key": "mes",
+        "children": [
+            {
+                "title": "Lot Operations",
+                "key": "mes-lot",
+                "children": [
+                    {
+                        "title": "Lot Start",
+                        "key": "app-lot-start",
+                        "isLeaf": true
+                    },
+                    {
+                        "title": "Lot Track In/Out",
+                        "key": "app-lot-track",
+                        "isLeaf": true
+                    },
+                    {
+                        "title": "Lot Hold/Release",
+                        "key": "app-lot-hold",
+                        "isLeaf": true
+                    }
+                ]
+            },
+            {
+                "title": "Equipment Control",
+                "key": "mes-eqp",
+                "children": [
+                    {
+                        "title": "Equipment Monitor",
+                        "key": "app-eqp-monitor",
+                        "isLeaf": true
+                    },
+                    {
+                        "title": "Maintenance Schedule",
+                        "key": "app-eqp-maint",
+                        "isLeaf": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Statistical Process Control (SPC)",
+        "key": "spc",
+        "children": [
+            {
+                "title": "Chart Viewer",
+                "key": "app-spc-chart",
+                "isLeaf": true
+            },
+            {
+                "title": "OOC Monitor",
+                "key": "app-spc-ooc",
+                "isLeaf": true
+            }
+        ]
+    }
+]

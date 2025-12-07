@@ -1,0 +1,42 @@
+# Agent Portal Prototype Implementation Tasks
+
+- [x] Stop existing servers and clean up environment
+- [x] Analyze updated specifications (`01 Portal Prototype.md`)
+- [x] Create Implementation Plan
+- [/] **Frontend Infrastructure**
+    - [x] Install Ant Design (`antd`) and Icon package
+    - [x] Configure Theme Provider (Dark/Light mode)
+    - [x] Create `bookmark_config.json` and `test_agent_chat_reply.json`
+- [x] **Component Implementation**
+    - [x] **Start Layout (MainLayout)**
+        - [x] Implement Ant Layout (Sider, Header, Content)
+        - [x] Quick Mode Switcher (Agent/Comm)
+    - [x] **Header (TopBar)**
+        - [x] Bookmark Bar (Data-driven from json)
+        - [x] Hierarchical "Add App" Menu
+        - [x] **Fix Header Layout**: Group Title, Mode, and Bookmarks to the left with divider
+        - [x] **Bookmark Features**: Add "+" button and ensure icons render correctly
+        - [x] **Configure Icons**: Update `bookmark_config.json` to use local assets
+        - [x] User Profile with Role Switcher & Notification Badge
+    - [x] **Sidebar (Left Panel)**
+        - [x] **Agent Mode**: New/Pinned Chat, My Expert, History
+        - [x] **Comm Mode**: Channel Lists (Recent, Group, DM, Bot) with badges
+    - [x] **Chat Area**
+        - [x] Message List (JSON format support)
+        - [x] File Uploader
+        - [x] Expert Selector (General, Equipment, Process, Manufacture)
+        - [x] **Refine Input Area**: Multi-line fixed height (5 rows), Enter for newline, Alt+Enter to send
+        - [x] **Refine Scrolling**: Scroll message list only, keep input fixed
+        - [x] **Fix Global Layout**: Ensure Header remains fixed and page does not scroll
+        - [x] **Chat Actions**: Render as Buttons
+        - [x] **Data Extraction**: Extract Left Panel data to JSON files
+- [x] **Verification**
+    - [x] Verify UI against requirements
+    - [x] Test JSON data loading
+- [ ] **Backend Integration (Spring Boot)**
+    - [ ] **Initialization**: Create Spring Boot project in `src/backend`
+    - [ ] **API Definition**: Design REST APIs for Chat, Sidebar, and Bookmarks
+    - [ ] **Mock Implementation**: Implement Controllers with static test data
+    - [ ] **Documentation**: Configure SpringDoc (Swagger/OpenAPI)
+    - [ ] **Cors**: Configure CORS to allow frontend requests
+    - [ ] **Frontend Connection**: Update frontend to consume real endpoints

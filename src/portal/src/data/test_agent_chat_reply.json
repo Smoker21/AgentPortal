@@ -1,0 +1,46 @@
+[
+    {
+        "sequence": 1,
+        "userMessage": "How do I reset my password?",
+        "agentReply": "You can reset your password using the IT Support Portal. Would you like me to open it for you?",
+        "actionRecommended": {
+            "type": "open_url",
+            "parameters": {
+                "url": "http://www.company.com/change-password"
+            }
+        }
+    },
+    {
+        "sequence": 2,
+        "userMessage": "Show me the maintenance schedule for Tool-A",
+        "agentReply": "Here is the maintenance schedule for Tool-A. I can also take you to the Tool Center for more details.",
+        "actionRecommended": {
+            "type": "open_url",
+            "parameters": {
+                "url": "http://www.company.com/tool-center"
+            }
+        }
+    },
+    {
+        "sequence": 3,
+        "userMessage": "Where can I find the SOP for etching?",
+        "agentReply": "The etching SOP is available in the Knowledge Center. I'll open the specific document for you.",
+        "actionRecommended": {
+            "type": "open_url",
+            "parameters": {
+                "url": "http://www.company.com/knowledge-center"
+            }
+        }
+    },
+    {
+        "sequence": 4,
+        "userMessage": "Please show me the status of lot id:A123456.01?",
+        "agentReply": "I will show you the status of the lot by using lot info.",
+        "actionRecommended": {
+            "type": "open_url",
+            "parameters": {
+                "url": "http://www.company.com/lot-center/lotinfo/A123456.01"
+            }
+        }
+    }
+]

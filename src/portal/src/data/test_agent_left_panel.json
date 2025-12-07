@@ -1,0 +1,71 @@
+{
+    "pinnedChats": [
+        {
+            "key": "pin-1",
+            "label": "Q4 Financial Report"
+        },
+        {
+            "key": "pin-2",
+            "label": "Deployment Guide"
+        }
+    ],
+    "myExperts": [
+        {
+            "key": "exp-1",
+            "label": "SOP Helper"
+        }
+    ],
+    "historyChats": [
+        {
+            "key": "today",
+            "label": "Today",
+            "type": "group",
+            "children": [
+                {
+                    "key": "chat-5",
+                    "label": "Lot Hold Analysis",
+                    "timestamp": "10:30 AM"
+                },
+                {
+                    "key": "chat-6",
+                    "label": "OHT Error Debug",
+                    "timestamp": "09:15 AM"
+                }
+            ]
+        },
+        {
+            "key": "yesterday",
+            "label": "Yesterday",
+            "type": "group",
+            "children": [
+                {
+                    "key": "chat-3",
+                    "label": "Wafer Looping Issue",
+                    "timestamp": "14:20 PM"
+                },
+                {
+                    "key": "chat-4",
+                    "label": "EDP Data Review",
+                    "timestamp": "11:45 AM"
+                }
+            ]
+        },
+        {
+            "key": "previous",
+            "label": "Previous 7 Days",
+            "type": "group",
+            "children": [
+                {
+                    "key": "chat-1",
+                    "label": "Yield Anomaly Q3",
+                    "timestamp": "Dec 05"
+                },
+                {
+                    "key": "chat-2",
+                    "label": "Recipe Optimization",
+                    "timestamp": "Dec 04"
+                }
+            ]
+        }
+    ]
+}

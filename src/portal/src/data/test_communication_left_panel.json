@@ -1,0 +1,33 @@
+{
+    "channels": [
+        {
+            "key": "ch-1",
+            "label": "General",
+            "count": 0
+        },
+        {
+            "key": "ch-2",
+            "label": "Announcements",
+            "count": 3
+        },
+        {
+            "key": "ch-3",
+            "label": "DevOps",
+            "count": 12
+        }
+    ],
+    "dms": [
+        {
+            "key": "dm-1",
+            "label": "Alice Chen",
+            "status": "online",
+            "count": 1
+        },
+        {
+            "key": "dm-2",
+            "label": "Bob Smith",
+            "status": "busy",
+            "count": 0
+        }
+    ]
+}

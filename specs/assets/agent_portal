@@ -1,0 +1,6 @@
+CREATE (n1:UserInterface {url: "", type: ""})<-[:FALLBACK_TO]-(:API {url: "", method: "", specUrl: "", operationId: "", name: "", riskLevel: ""})<-[:INVOKES]-(n2:Function:Feature {description: "", sampleUtterance: "", abbreviation: "", riskLevel: ""})-[:SUPPORT_BY]->(:GlobalSupport {ServicePhone: ""})<-[:SUPPORT_BY]-(n0:Application {icon: "", name: ""})-[:Provides]->(n2)-[:EXPLAIN_BY]->(:UserManual:Document:Faq {link: "", version: ""}),
+(:Provider {team: "", contactWindow: ""})-[:MAINTAINS]->(n0)<-[:CONTAINS]-(:ApplicationCategory:UserDomain {name: "", serviceGroup: ""})<-[:BELONG_TO]-(n0)-[:SERVICE]->(n12:UserGroup:Role {name: ""}),
+(n3:User {accountId: "", name: ""})-[:ACCESS]->(n2)<-[:MATCHES]-(n11:Intent {name: "", sampleUtterance: "", embedding: "", inputSlots: "", clarifyPrompt: "", confidence: "", riskLevel: "", domain: ""})<-[:EXPRESS]-(n3)-[:AUTH_BY]->(:`A4Auth`:SSOProvider {authnMethod: "", authrGroups: ""})<-[:HAS_PERMISSION]-(n12)<-[:GRANT_TO]-(n2),
+(n2)-[:DISPLAY]->(n1),
+(n3)-[:BELONG_TO]->(n12)-[:CONTAINS]->(n3),
+(n11)-[:SUBCATEGORY_OF]->(n11)
