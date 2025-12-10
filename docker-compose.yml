@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  neo4j:
+    image: neo4j:5.15.0-community
+    container_name: agent_portal_neo4j
+    ports:
+      - "7474:7474" # HTTP
+      - "7687:7687" # Bolt
+    environment:
+      NEO4J_AUTH: neo4j/admin1234
+    volumes:
+      - ./neo4j/data:/data
+      - ./neo4j/logs:/logs
+      - ./neo4j/import:/var/lib/neo4j/import
+      - ./neo4j/plugins:/plugins
+    restart: unless-stopped
+
+  ontology-api:
+    build: ./src/backend/ontology-api
+    container_name: agent_portal_backend
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_NEO4J_URI=bolt://neo4j:7687
+      - SPRING_NEO4J_AUTHENTICATION_USERNAME=agent_portal
+      - SPRING_NEO4J_AUTHENTICATION_PASSWORD=portal_secret_123
+    depends_on:
+      - neo4j
+    restart: unless-stopped
+
+  portal:
+    build: ./src/portal
+    container_name: agent_portal_frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - ontology-api
+    restart: unless-stopped

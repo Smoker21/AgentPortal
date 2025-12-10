@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: ontology-api
+  neo4j:
+    uri: ${SPRING_NEO4J_URI:bolt://localhost:7687}
+    authentication:
+      username: ${SPRING_NEO4J_AUTHENTICATION_USERNAME:agent_portal}
+      password: ${SPRING_NEO4J_AUTHENTICATION_PASSWORD:portal_secret_123}
+  graphql:
+    graphiql:
+      enabled: true
+      path: /graphiql
+    cors:
+      allowed-origins: "*"
+      allowed-methods: "*"
+      allowed-headers: "*"
+
+server:
+  port: 8080

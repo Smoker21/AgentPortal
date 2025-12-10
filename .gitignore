@@ -5,3 +5,12 @@ build
 .env
 coverage
 *.log
+
+# Neo4j data
+neo4j/data/
+neo4j/logs/
+neo4j/test/data/*.csv
+
+# Build artifacts
+src/backend/ontology-api/target/
+

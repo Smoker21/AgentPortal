@@ -40,3 +40,19 @@
     - [ ] **Documentation**: Configure SpringDoc (Swagger/OpenAPI)
     - [ ] **Cors**: Configure CORS to allow frontend requests
     - [ ] **Frontend Connection**: Update frontend to consume real endpoints
+- [x] **Ontology Infrastructure (MVP Scope)**
+    - [x] **Schema Design**: `specs/02_ontology_schema.md` (Nodes, Props, Relationships, Performance)
+    - [x] **Environment**: Docker Compose (`neo4j/docker-compose.yml`) & Setup Script (`setup_neo4j.ps1`)
+    - [x] **Initialization**: Cypher Script (`neo4j/init.cypher`)
+    - [x] **Test Data**: Python Generator (`neo4j/test/generate_data.py`) with Enterprise Domains
+    - [x] **Documentation**: Optimized Ontology Diagram (Mermaid & SVG)
+    - [x] **Documentation**: Neo4j Setup Manual & Account Creation (`specs/02_neo4j_setup.md`)
+
+- [ ] **Ontology GraphQL API (MVP)**
+    - [x] **Backend Init**: Spring Boot Project Setup (`src/backend/ontology-api`)
+    - [x] **Schema**: GraphQL Schema Definition (`schema.graphqls`)
+    - [x] **Data Layer**: Neo4j Repositories & Entities
+    - [x] **API Layer**: GraphQL Controllers
+    - [x] **Docker**: Dockerfile & Compose Integration
+    - [x] **Documentation**: API Developer Guide
+    - [x] **Quality**: Improving Coverage > 70%

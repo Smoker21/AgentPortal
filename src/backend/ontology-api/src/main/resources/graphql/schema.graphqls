@@ -1,0 +1,78 @@
+type Query {
+    # User Queries
+    getUser(accountId: String!): User
+    
+    # Application Queries
+    getApplications: [Application]
+    getApplication(id: ID!): Application
+    
+    # Search
+    findFunctions(text: String!): [Function]
+}
+
+type Mutation {
+    createIntent(name: String!, sampleUtterance: String!): Intent
+}
+
+type User {
+    id: ID!
+    accountId: String!
+    name: String
+    email: String
+    roles: [UserRole]
+    accessibleFunctions: [Function]
+}
+
+type UserRole {
+    id: ID!
+    name: String!
+    description: String
+}
+
+type Application {
+    id: ID!
+    name: String!
+    description: String
+    icon: String
+    status: String
+    functions: [Function]
+    category: ApplicationCategory
+}
+
+type ApplicationCategory {
+    id: ID!
+    name: String!
+}
+
+type Function {
+    id: ID!
+    name: String
+    description: String
+    sampleUtterance: String
+    riskLevel: String
+    tags: [String]
+    api: API
+    userInterface: UserInterface
+}
+
+type Intent {
+    id: ID!
+    name: String!
+    sampleUtterance: String
+    confidence: Float
+}
+
+type API {
+    id: ID!
+    name: String
+    url: String
+    method: String
+    riskLevel: String
+}
+
+type UserInterface {
+    id: ID!
+    url: String
+    type: String
+    title: String
+}

@@ -31,6 +31,7 @@
     2. 使用  Ant Design，需要有 Dark mode and light mode ，切換模式功能作在使用者設定
 
 ### 畫面說明
+
     整體為響應式布局，整體畫面不會左右和上下捲動。
     1. Quick switch : 左上角是 communication 與 Agent 模式快速切換鈕。
     2. User icon: 右上角是使用者名稱，點擊使用者 ICON 可以快速進入使用者個人資料設定與系統設定，同時如果該使用者有多重身分，可以快速切換身分。(User Mode, Knowledge Expert Mode, Admin Mode), User icon 右下有小數字，顯示新訊息數量。

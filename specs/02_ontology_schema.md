@@ -1,6 +1,47 @@
 # Ontology Design Confirmation
 
 ## 1. Mermaid Ontology Structure
+### 1.1 Node Relation Visual
+![Node Relations](assets/Agent_Based_Portal.svg)
+
+### 1.2 Simplified Node Relationship Diagram
+```mermaid
+graph TD
+    %% Core Nodes (Highlighted)
+    User((User))
+    Intent(Intent)
+    Function[Function]
+    Application[Application]
+    UI[UserInterface]
+
+    %% Main Execution Flow (Thick Lines)
+    User ==>|EXPRESS| Intent
+    Intent ==>|MATCHES| Function
+    Application ==>|Provides| Function
+    Function ==>|DISPLAY| UI
+
+    %% Secondary Logic
+    Function -->|INVOKES| API[API]
+    API -->|FALLBACK_TO| UI
+    
+    %% Context & Classification (Peripheral)
+    AppCat[AppCategory] -->|CONTAINS| Application
+    Provider[Provider] -.->|MAINTAINS| Application
+    
+    %% Support & Docs
+    Function -.->|EXPLAIN_BY| UserManual[UserManual]
+    Application -.->|SUPPORT_BY| GlobalSupport[GlobalSupport]
+    
+    %% Identity & Access
+    UserRole[UserRole] -.->|CONTAINS| User
+    User -.->|AUTH_BY| SSO[SSOProvider]
+    Function -.->|GRANT_TO| UserRole
+    
+    %% Intent Hierarchy
+    Intent -.->|SUBCATEGORY_OF| Intent
+```
+
+### 1.3 Entity Relationship Diagram (Detailed)
 ```mermaid
 erDiagram
     UserInterface {
@@ -228,4 +269,41 @@ OPTIONS {indexConfig: {
  `vector.dimensions`: 1536,
  `vector.similarity_function`: 'cosine'
 }};
+```
+
+## 5. Data Verification Queries
+Use these queries to confirm that your data/schema has been correctly imported.
+
+### 5.1 Check Node Counts by Label
+Confirm that you have the expected number of nodes for each type.
+```cypher
+MATCH (n) 
+RETURN labels(n)[0] AS Label, count(n) AS Count 
+ORDER BY Count DESC;
+```
+
+### 5.2 Check Relationship Counts
+Confirm that nodes are connected as expected.
+```cypher
+MATCH ()-[r]->() 
+RETURN type(r) AS Relationship, count(r) AS Count 
+ORDER BY Count DESC;
+```
+
+### 5.3 Sample Data Inspection
+Check specific nodes to ensure properties are populated correctly.
+```cypher
+// View first 5 Users
+MATCH (u:User) RETURN u LIMIT 5;
+
+// View Applications and their Functions
+MATCH (app:Application)-[:Provides]->(func:Function)
+RETURN app.name, func.name, func.riskLevel
+LIMIT 10;
+```
+
+### 5.4 Vector Index Verification
+Ensure the vector index is online and populated.
+```cypher
+SHOW INDEXES WHERE type = 'VECTOR';
 ```
